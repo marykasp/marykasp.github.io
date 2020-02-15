@@ -7,19 +7,25 @@
         /* li {
             border: 1px solid black;
         } */
-        li a {
+        a {
             color: red;
         }
         /* Nesting inheritance- increase specificity */
-        #exec-bio {
-            background-color: lightgray;
-        }
         .bio-box {
             border: 1px solid black;
         }
         /* select links within those class divs */
         .bio-box a {
             color: green;
+        }
+        .highlight {
+            background-color: azure;
+        }
+        #exec-bio {
+            background-color: lightgray;
+        }
+        #highlight-bio {
+            background-color: orange;
         }
     </style>
   </head>
@@ -41,19 +47,19 @@
 
     <h2>I'm an h2</h2>
 
-    <div id="exec-bio" class="bio-box">
+    <div id="exec-bio" class="bio-box highlight">
       <a href="https://example.com/">I'm a link</a>
     </div>
 
-    <div class="bio-box">
+    <div class="bio-box highlight">
+      <a href="https://example.com/" id="highlight-bio">I'm a link</a>
+    </div>
+
+    <div class="bio-box highlight">
       <a href="https://example.com/">I'm a link</a>
     </div>
 
-    <div class="bio-box">
-      <a href="https://example.com/">I'm a link</a>
-    </div>
-
-    <div class="bio-box">
+    <div class="bio-box highlight">
       <a href="https://example.com/">I'm a link</a>
     </div>
 
