@@ -29,31 +29,39 @@
         .social-link {
             background-color: rgba(150, 150, 150, 0.5);
             color:#00f;
-            /* display: none; */
+        }
+
+        .social-list {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .social-list > li {
+            display: inline-block;
         }
 
         /* BIO STYLeS */
         .bio-wrapper {
             font-size: 24px;
-            /* overflow: hidden; */
+            overflow: hidden;
             /* width: 500px; */
         }
-        .bio-wrapper:after{
+        /* .bio-wrapper:after{
             visibility: hidden;
             display: block;
             font-size: 0;
             content: " ";
             clear: both;
             height: 0;
-        }
+        } */
         .bio-box {
             border: 1px solid #000;
             box-sizing: border-box;
             float: left;
             font-size: 1rem;
             padding: 2%;
-            width: 25%;
-            
+            width: 25%; 
         }
         .bio-box h3 {
             font-size: 1.5em;
@@ -91,15 +99,15 @@
       <div class="full-hero">
         <h1>I'm an h1</h1>
 
-        <ul>
+        <ul class="social-list">
             <li>
-                <a href="https://example.com/" class="social-link">Link</a>
+                <a href="https://example.com/" class="social-link">Link1</a>
             </li>
             <li>
-                <a href="https://example.com/" class="social-link">Link</a>
+                <a href="https://example.com/" class="social-link">Link2</a>
             </li>
             <li>
-                <a href="https://example.com/" class="social-link">Link</a>
+                <a href="https://example.com/" class="social-link">Link3</a>
             </li>
         </ul>
     </div>
