@@ -4,10 +4,11 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style>
-           /* GLOBAL STYLES */
-           html, body {
+        /* GLOBAL STYLES */
+        html, body {
             margin: 0;
-        }
+            padding: 0;
+       }
         a {
         color: #f00;
        }
@@ -15,9 +16,9 @@
            font-size: 7vw;
            margin-top: 0;
        }
-       h2 {
+       /* h2 {
            font-size: 30px;
-       }
+       } */
 
        /* HERO STYLES */
        .full-hero {
@@ -28,7 +29,20 @@
         /* SOCIAL STYLES */
         .social-link {
             background-color: rgba(150, 150, 150, 0.5);
-            color:#00f;
+            border-radius: 99px;
+            box-sizing: border-box;
+            color:#fff;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            font-weight: bold;
+            padding-top: 0.85em;
+            height: 2.5em;
+            line-height: 1;
+            width: 2.5em;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
         }
 
         .social-list {
@@ -39,14 +53,16 @@
 
         .social-list > li {
             display: inline-block;
+            margin: 0 0.5em;
         }
 
         /* BIO STYLeS */
         .bio-wrapper {
             font-size: 24px;
-            overflow: hidden;
             margin: auto;
             max-width: 960px;
+            /* clear floats */
+            overflow: hidden;
         }
         /* .bio-wrapper:after{
             visibility: hidden;
@@ -58,16 +74,15 @@
         } */
         .bio-box {
             border: 1px solid #000;
+            border-color: black black red;
             box-sizing: border-box;
             float: left;
             font-size: 1rem;
             margin: 40px 1% 0;
-            padding: 2%;
+            padding: 0 2% 2%;
             width: 23%; /* 25%(original width) - 2%(left and right padding) */
         }
-        .bio-box > a {
-            color: #c68bf9;
-        }
+        /* child selector has higher specificity then just a class */
         .bio-box h3 {
             color: #fff;
             font-size: 1.5em;
@@ -79,6 +94,7 @@
         }
         .bio-copy {
             font-size: 1em;
+            line-height: 1.5em;
         }
         .bio-copy a {
             color:  #008000;
@@ -112,13 +128,13 @@
 
         <ul class="social-list">
             <li>
-                <a href="https://example.com/" class="social-link">Link1</a>
+                <a href="https://example.com/" class="social-link">Fb</a>
             </li>
             <li>
-                <a href="https://example.com/" class="social-link">Link2</a>
+                <a href="https://example.com/" class="social-link">Tw</a>
             </li>
             <li>
-                <a href="https://example.com/" class="social-link">Link3</a>
+                <a href="https://example.com/" class="social-link">Gh</a>
             </li>
         </ul>
     </div>
