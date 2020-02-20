@@ -287,12 +287,10 @@ header {
 }
 .bio-box .social-link {
     display: block;
-    margin: 2em 0 1em;
+    margin: 2em auto 1em;
 }
 .bio-copy {
     font-size: 0.75em;
 }
-.bio-copy a {
-    color: #008000;
-}
+
  
