@@ -1,11 +1,11 @@
 ---
 layout: post
-title: This is the title of the second post
-postHero: /images/shark.jpg
-author: Me, Myself, and I
-authorTwitter: https://twitter.com/mhartl
-gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
-postFooter: Additional information, and maybe a <a href="#">link or two</a>
+title: This is a test title
+postHero: /images/kitten.jpg
+author: Mary Kasp
+authorTwitter: http://twitter.com/marykasparian
+gravatar: https://s.gravatar.com/avatar/0ff159277be51a556586103cf303a921?s=80&r=g
+postFooter: Additional information
 ---
 
 Call me *Ishmael*. Some years ago–*never mind how long
