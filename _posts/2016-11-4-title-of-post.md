@@ -3,7 +3,7 @@ layout: post
 title: This is a test title
 postHero: /images/kitten.jpg
 author: Mary Kasp
-authorTwitter: http://twitter.com/marykasparian
+author<i class="fab fa-twitter"></i>itter: http://<i class="fab fa-twitter"></i>itter.com/marykasparian
 gravatar: https://s.gravatar.com/avatar/0ff159277be51a556586103cf303a921?s=80&r=g
 postFooter: Additional information
 ---

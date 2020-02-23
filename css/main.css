@@ -285,17 +285,17 @@ h2 + p {
 	flex: 0 1 20em;
 }
 
-.col-two {
+.col-<i class="fab fa-twitter"></i>o {
 	display: flex;
 }
 
-.col-two .col-aside {
+.col-<i class="fab fa-twitter"></i>o .col-aside {
 	flex: 0 0 20em;
 	/* make the second item in flex container */
 	order: 1;
 }
 
-.col-two .col-content {
+.col-<i class="fab fa-twitter"></i>o .col-content {
 	flex: 1;
 }
 

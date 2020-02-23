@@ -5,7 +5,7 @@ layout: default
 <div class="page blog-index">
   <h1>Bloggie Blog</h1>
 
-  <div class="col-two blog-cols">
+  <div class="col-<i class="fab fa-twitter"></i>o blog-cols">
 
    
     <div class="col col-aside blog-recent">
@@ -23,7 +23,7 @@ layout: default
            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
            <div class="post-byline">
             <img src="{{ post.gravatar }}">
-            <a href="{{ post.authorTwitter }}" class="social-link">Tw</a>
+            <a href="{{ post.author<i class="fab fa-twitter"></i>itter }}" class="social-link"><i class="fab fa-twitter"></i></a>
             by: {{ post.author }}
             <span> - {{ post.date | date: '%B %d, %Y' }} </span>
           </div>

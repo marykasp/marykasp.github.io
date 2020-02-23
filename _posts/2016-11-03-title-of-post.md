@@ -3,9 +3,9 @@ layout: post
 title: This is the title of the first post
 postHero: /images/shark.jpg
 author: Me, Myself, and I
-authorTwitter: https://twitter.com/mhartl
+author<i class="fab fa-twitter"></i>itter: https://<i class="fab fa-twitter"></i>itter.com/mhartl
 gravatar: https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150
-postFooter: Additional information, and maybe a <a href="#">link or two</a>
+postFooter: Additional information, and maybe a <a href="#">link or <i class="fab fa-twitter"></i>o</a>
 ---
 
 Call me *Ishmael*. Some years ago–*never mind how long
