@@ -57,8 +57,10 @@ layout: default
         </h2>
         <div class="post-byline">
           <img src="{{ site.posts.first.gravatar }}">
-          <a href="{{ site.posts.first.author<i class="fab fa-twitter"></i>itter }}"
-          class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="{{ site.posts.first.author}}"
+          class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
           by: {{ site.posts.first.author }}
           <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
         </div>
